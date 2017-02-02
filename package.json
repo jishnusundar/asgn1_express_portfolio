@@ -1,28 +1,38 @@
 {
-  "name": "asgn1_express_protfolio",
-  "version": "1.0.0",
-  "description": "Assignment 1 uses express module and EJS templating engine to create a profolio website",
-  "main": "server.js",
+  "name": "asgn1-express-portfolio",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">3.5.0"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "description": "",
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jishnusundar/asgn1_express_portfolio.git"
   },
   "keywords": [
-    "JES",
-    "node.js",
-    "Express"
+    "Node.js",
+    "Express",
+    "Ejs"
   ],
   "author": "Jishnu",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jishnusundar/asgn1_express_portfolio/issues"
   },
-  "homepage": "https://github.com/jishnusundar/asgn1_express_portfolio#readme",
-  "dependencies": {
-    "express": "^4.14.1"
-  }
+  "homepage": "https://github.com/jishnusundar/asgn1_express_portfolio#readme"
 }
