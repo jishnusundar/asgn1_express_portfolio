@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/jishnusundar/asgn1_express_portfolio/issues"
   },
-  "homepage": "https://github.com/jishnusundar/asgn1_express_portfolio#readme"
+  "homepage": "https://github.com/jishnusundar/asgn1_express_portfolio#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
 }
