@@ -1,42 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <meta charset="utf-8">
-  <meta name="viewport" Content="width=device-width, initial-scale=1">
-    <title><%= title %></title>
-<link rel='stylesheet' href='/Scripts/lib/bootstrap/dist/css/bootstrap.min.css' />
-<link rel='stylesheet' href='/Scripts/lib/bootstrap/dist/css/bootstrap-theme.css' />
-    <link rel='stylesheet' href='/Content/sidebar.css' />
+<% include ../views/partials/head %>
   </head>
   <body>
-<nav class="navbar navbar-inverse sidebar" role="navigation">
-    <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>      
-    </div>
-    <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
-        <li ><a href="#">Projects<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></a></li>
-                <li ><a href="#">Services<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-tags"></span></a></li>      
-        <li ><a href="#">Contact Me<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-phone-alt"></span></a></li>
-        <li ><a href="#">About Me<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>        
 
-      </ul>
-    </div>
-  </div>
-</nav>
+  <!-- Side bar -->
+<% include ../views/partials/sidebar %>
 
+<!-- Side bar ends -->
+
+<div id="main-page-wrapper" style="padding-top: 30px; padding-right: 100px;">
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam explicabo, itaque officia dolor, ad quidem? Aliquam impedit expedita maxime odit unde iusto labore, sapiente libero ullam fugiat animi molestias. Eos doloribus corporis laborum quibusdam eveniet perferendis quas ipsa sed asperiores ad esse voluptatibus, autem nobis sit nesciunt soluta ut incidunt excepturi quos provident ipsam. Incidunt ut neque recusandae ad nisi beatae quasi necessitatibus illum quo cupiditate voluptates corporis officiis voluptas, ea ipsum saepe magnam modi laboriosam quaerat et. Odit iste assumenda non ex quae. Vel voluptas rem harum illum numquam nihil dignissimos quae architecto, hic inventore totam ea iste quaerat.</p>
+</div>
 
     <!-- Scripts -->
-<Script src="/Scripts/lib/jquery/dist/jquery.min.js"></Script>
-<Script src="/Scripts/lib/bootstrap/dist/js/bootstrap.min.js"></Script>
-<Script src="/Content/app.js"></Script>
+<% include ../views/partials/scriptPartials %>
 
   </body>
 </html>

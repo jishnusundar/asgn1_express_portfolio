@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
+
 /* GET home page. */
 router.get('/', (req, res, next) => {
   let currentDate = new Date();
@@ -12,7 +13,9 @@ router.get('/', (req, res, next) => {
 
 /* GET about page. */
 router.get('/projects', (req, res, next) => {
-  res.render('projects', { title: 'Projects' });
+  res.render('index', { title: 'Projects' });
 });
+
+
 
 module.exports = router;
