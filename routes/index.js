@@ -11,8 +11,8 @@ router.get('/', (req, res, next) => {
 });
 
 /* GET about page. */
-router.get('/about', (req, res, next) => {
-  res.render('about', { title: 'About' });
+router.get('/projects', (req, res, next) => {
+  res.render('projects', { title: 'Projects' });
 });
 
 module.exports = router;
