@@ -6,7 +6,7 @@ var router = express.Router();
 router.get('/', (req, res, next) => {
   let currentDate = new Date();
   res.render('index', { 
-    title: 'Express' ,
+    title: 'Hi there!' ,
     date: currentDate.toTimeString()
   });
 });
