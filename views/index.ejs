@@ -5,77 +5,34 @@
     
   </head>
   <body>
+    <div id="wrapper">
+        <div class="overlay"></div>
+    
+<% include ../views/partials/sidebar %>
 
-  <div id="wrapper" data-spy="scroll" data-target="#spy" class="">
-    <!-- Sidebar -->
-    <% include ../views/partials/sidebar %>
-
-
-
-    <!-- Page content -->
-<div id="page-content-wrapper" class="">
-        <div class="content-header">
-             <h1 id="home" class="">
-                    <a id="menu-toggle" href="#" class="btn btn-menu btn-lg toggle">
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </a>
-                    
-                </h1>
-
-        </div>
-        <div class="page-content inset">
-            <div class="row">
-                <div class="jumbotron text-center">
-                     <h1 class=""><%= title %></h1>
-
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In quod totam hic quidem adipisci placeat odit non eaque sequi quas enim, facilis quam nobis voluptas doloribus dignissimos, neque porro. Magnam!</p>
-                    
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+    			<span class="hamb-middle"></span>
+				<span class="hamb-bottom"></span>
+            </button>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <h1><%= title %></h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ratione nostrum itaque enim perspiciatis vero autem vitae illum, excepturi facilis modi placeat repellendus. Facilis molestias error, dolorem beatae. Quam blanditiis facilis, consequatur iure laboriosam quasi delectus dignissimos error a provident at perferendis tempore rem, cumque quisquam amet dolore nulla nisi nobis. Dolorum, inventore. Quasi illum tempora nihil dolorum eos, minima doloribus, molestias qui dignissimos temporibus incidunt ut dicta vitae quaerat praesentium, voluptatem sint nesciunt amet vel eius. Non expedita voluptatibus dolores? Repudiandae eveniet ipsa inventore placeat. Cumque praesentium distinctio libero voluptatibus optio impedit, ea consequuntur fuga, tenetur, atque, error consectetur? Odio in mollitia hic repellat deleniti praesentium quis repudiandae perferendis aut rem natus consequatur dolor, error deserunt, tempora quam. Optio ut earum amet nemo esse, beatae, distinctio mollitia officiis dicta modi delectus nisi enim accusantium, repudiandae consequuntur doloremque, iure quaerat. Est cumque recusandae iusto tempora consequatur quam quas sapiente, adipisci eum soluta voluptas porro accusantium nemo! Saepe perferendis laborum ipsum fugiat provident assumenda sequi? Blanditiis ullam earum mollitia in nemo laboriosam consequatur ducimus, iste officia nesciunt fugit voluptates maxime asperiores, optio explicabo voluptas officiis minus consequuntur totam laborum! Tenetur, facilis quia nisi atque sunt odio excepturi debitis veniam molestias nemo!</p>                     
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt aut placeat natus, impedit explicabo delectus odit! Consequuntur mollitia, esse qui asperiores quas, necessitatibus distinctio commodi facere ea minus quaerat quos sunt vitae accusamus placeat delectus reiciendis molestias harum minima deserunt aperiam temporibus doloremque sapiente, fuga reprehenderit. Ea quibusdam non voluptatem modi enim eveniet est, qui maxime ducimus fugit laborum. Dolore non consequuntur, blanditiis recusandae ad harum ratione repellendus sapiente, quaerat numquam quasi, officia nostrum eos, enim modi neque? Quae amet harum assumenda optio voluptas ea ut explicabo, eum autem laudantium ex voluptatum necessitatibus cupiditate, quas in, voluptatibus deleniti provident ullam.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum sequi ratione magni sit accusantium, dolorum nisi, mollitia vitae labore, hic quo? Error in, aut iste? Unde consequatur, molestias quisquam necessitatibus totam assumenda iusto quas aliquam odit optio asperiores veritatis, maiores esse doloribus, reiciendis quos, ut fuga rerum! Perspiciatis, iusto, velit.</p> 
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12 well">
-                    <legend id="HomeContent" class=""></legend>
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultricies,
-                        metus eget fringilla fermentum, sem justo pulvinar tellus, ac varius neque
-                        ante eget mi. Donec cursus nibh ultrices vulputate aliquet. Morbi nulla
-                        enim, molestie eu ullamcorper quis, placerat a mauris. Proin vel magna
-                        ullamcorper, vulputate leo eu, egestas odio. Vivamus erat leo, egestas
-                        in euismod sed, fermentum nec magna. Nunc nisi enim, euismod a tellus sit
-                        amet, fermentum adipiscing ipsum. Fusce rhoncus diam ac neque aliquam convallis.
-                        Etiam malesuada, nibh id rutrum euismod, enim augue gravida dolor, at vulputate
-                        felis mi at magna. Nulla luctus, libero eget luctus gravida, sapien enim
-                        varius massa, adipiscing aliquet lacus mi eu eros. Duis pretium laoreet
-                        ullamcorper. Aenean in mauris nec libero tincidunt pharetra non et dui.
-                        Sed tortor turpis, mollis et tempus eu, auctor laoreet neque. Etiam eu
-                        tortor rutrum, rutrum mauris sit amet, hendrerit augue. Sed ut tincidunt
-                        nisi. Nam consectetur velit ac pharetra venenatis.</p>
-                    <p class="">Donec pellentesque id quam vel iaculis. Phasellus commodo tempor metus,
-                        eget sollicitudin odio ultricies id. Proin sed ipsum quis turpis suscipit
-                        luctus vitae id urna. Fusce et rhoncus quam. Etiam vel justo ligula. Nullam
-                        euismod lacinia risus a pulvinar. Pellentesque sit amet nisl eget ante
-                        vulputate feugiat. Suspendisse venenatis magna nunc, mollis facilisis neque
-                        condimentum ac. Vivamus non semper dui. Aenean sed eleifend dui. Vivamus
-                        a massa aliquam nibh consectetur luctus id at ligula. Nunc ipsum dolor,
-                        mollis at sem et, auctor rhoncus ipsum. Nulla faucibus venenatis est sit
-                        amet facilisis. In vestibulum nisi at tellus egestas, in pharetra enim
-                        fringilla. In ac erat non magna accumsan aliquam.</p>
-                </div>
-                
-            </div>
-            <% include ../views/partials/bottom %>
-
         </div>
+        <!-- /#page-content-wrapper -->
 
     </div>
-
-</div>
-
-
-    <!-- Scripts -->
-
-<% include ../views/partials/scriptPartials %>
-
+    <!-- /#wrapper -->
+ 
+    <% include ../views/partials/scriptPartials %>
   </body>
 </html>
