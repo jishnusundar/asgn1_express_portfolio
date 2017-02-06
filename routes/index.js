@@ -16,7 +16,7 @@ router.get('/services', (req, res, next) => {
 
 /* GET about page. */
 router.get('/about', (req, res, next) => {
-  res.render('others', { title: 'Who am I?' });
+  res.render('about', { title: 'Who am I?' });
 });
 
 /* GET about page. */
@@ -27,7 +27,7 @@ router.get('/contact', (req, res, next) => {
 /* GET home page. */
 router.get('/', (req, res, next) => {
   let currentDate = new Date();
-  res.render('index', { 
+  res.render('home', { 
     title: 'Hi there!'  , mainContent: 'My name is Jishnu and i\'ve been studying Software Engineering Technology for the last 2 years @ Centennial College. This website is my simple portfolio where most of my accomplishments and interests are posted. Check in to see!'
   });
 });

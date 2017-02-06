@@ -8,9 +8,6 @@ html { height: 100%;}
 .nav .open > a:hover, 
 .nav .open > a:focus {background-color: transparent;}
 
-/*-------------------------------*/
-/*           Wrappers            */
-/*-------------------------------*/
 
 #wrapper {
     padding-left: 0;
@@ -57,9 +54,7 @@ html { height: 100%;}
     margin-right: -220px;
 }
 
-/*-------------------------------*/
-/*     Sidebar nav styles        */
-/*-------------------------------*/
+
 
 .sidebar-nav {
     position: absolute;
@@ -164,9 +159,7 @@ html { height: 100%;}
     box-shadow: none;
 }
 
-/*-------------------------------*/
-/*       Hamburger-Cross         */
-/*-------------------------------*/
+
 
 .hamburger {
   position: fixed;
@@ -278,9 +271,7 @@ html { height: 100%;}
   -webkit-transition: all .35s ease-in-out;
 }
 
-/*-------------------------------*/
-/*            Overlay            */
-/*-------------------------------*/
+
 
 .overlay {
     position: fixed;
