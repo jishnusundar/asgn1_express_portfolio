@@ -28,7 +28,7 @@ router.get('/contact', (req, res, next) => {
 router.get('/', (req, res, next) => {
   let currentDate = new Date();
   res.render('index', { 
-    title: 'Hi there!'  , mainContent: 'My nameis Jishnu and i\'ve been studying Software Engineering Technology for the last 2 years @ Centennial College. This website is my simple portfolio where most of my accomplishments and interests are posted. Check in to see!'
+    title: 'Hi there!'  , mainContent: 'My name is Jishnu and i\'ve been studying Software Engineering Technology for the last 2 years @ Centennial College. This website is my simple portfolio where most of my accomplishments and interests are posted. Check in to see!'
   });
 });
 
