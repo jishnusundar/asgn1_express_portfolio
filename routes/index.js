@@ -6,7 +6,7 @@ var router = express.Router();
 
 /* GET projects page. */
 router.get('/projects', (req, res, next) => {
-  res.render('others', { title: 'Projects'});
+  res.render('projects', { title: 'Projects'});
 });
 
 /* GET services page. */
