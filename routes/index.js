@@ -19,9 +19,9 @@ router.get('/about', (req, res, next) => {
   res.render('about', { title: 'Who am I?' });
 });
 
-/* GET about page. */
+/* GET contact page. */
 router.get('/contact', (req, res, next) => {
-  res.render('others', { title: 'Reach Me' });
+  res.render('contact', { title: 'Reach Me' });
 });
 
 /* GET home page. */
