@@ -1,4 +1,4 @@
-/*Script for Sidebar
+/*
 Source: http://bootsnipp.com/snippets/featured/fancy-sidebar-navigation
 Author: maridlcrmn 
 Filename: app.js
