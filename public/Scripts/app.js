@@ -1,3 +1,8 @@
+/*Script for Sidebar
+Source: http://bootsnipp.com/snippets/featured/fancy-sidebar-navigation
+Author: maridlcrmn 
+Filename: app.js
+Description: Javascript for the responsive sidebar*/
 $(document).ready(function () {
   var trigger = $('.hamburger'),
       overlay = $('.overlay'),

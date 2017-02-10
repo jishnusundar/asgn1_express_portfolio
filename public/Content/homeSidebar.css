@@ -1,3 +1,9 @@
+/*Filename: homeSidebar.css
+Website Name: portoflioassgn-js.herokuapp.com
+Description: Styling for the Responsive Sidebar for Home Page
+Source: http://bootsnipp.com/snippets/featured/fancy-sidebar-navigation 
+Author: maridlcrmn
+This is the exact code which can be found in the file "sidebar.css, I kept 2 seperate files to give a colour difference in the home page"*/
 body {
     position: relative;
     overflow-x: hidden;
@@ -8,9 +14,7 @@ html { height: 100%;}
 .nav .open > a:hover, 
 .nav .open > a:focus {background-color: transparent;}
 
-/*-------------------------------*/
-/*           Wrappers            */
-/*-------------------------------*/
+
 
 #wrapper {
     padding-left: 0;
@@ -57,9 +61,7 @@ html { height: 100%;}
     margin-right: -220px;
 }
 
-/*-------------------------------*/
-/*     Sidebar nav styles        */
-/*-------------------------------*/
+
 
 .sidebar-nav {
     position: absolute;
@@ -164,9 +166,7 @@ html { height: 100%;}
     box-shadow: none;
 }
 
-/*-------------------------------*/
-/*       Hamburger-Cross         */
-/*-------------------------------*/
+
 
 .hamburger {
   position: fixed;
@@ -278,9 +278,7 @@ html { height: 100%;}
   -webkit-transition: all .35s ease-in-out;
 }
 
-/*-------------------------------*/
-/*            Overlay            */
-/*-------------------------------*/
+
 
 .overlay {
     position: fixed;
